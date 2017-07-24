@@ -1,0 +1,328 @@
+@CHARSET "ISO-8859-1";
+
+* { 
+	margin: auto;
+	padding: auto;
+}
+
+#srednji { 
+    width: 1185px;
+    height: 720px;
+    margin: 44px auto 0 auto;
+	background-color: rgba(160, 82, 45, 0.8);
+	color: white;
+} 
+
+@font-face { 
+	font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+@font-face { 
+	font-family: News Cycle; 
+	src: url('../fonts/NewsCycle-Regular.eot'); 
+	src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+ 
+body {
+	font: normal .80em arial, sans-serif;
+	background: #FFF url(../images/back.jpg) no-repeat center fixed;
+    width: 1190px;
+    
+}
+
+#overlay {
+    width: 291px;
+    height: 150px;
+    overflow: hidden;
+    float: right;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+#kategorije{
+	float:left;
+	width: 185px;
+	height: 100%;
+	background-color: rgba(213, 153, 47, 0.60);
+}
+
+#kategorijeLista{
+	padding: 5px;
+
+}
+#kategorijeLista li {
+	width: 90%;
+	height: 10%;
+	padding: 10px;
+	text-align: center;
+	color: white;	
+	font-size: 20px;
+	border-bottom: 1px solid white;
+	cursor:pointer;
+
+}
+#header{
+	background-color: rgba(0, 0, 0, 0.7);
+	margin:15px 0 20px;
+	height: 150px;
+	width: 100%;
+	
+}
+#logo{
+	width: 347px;
+    float: left;
+    padding: 16px;
+}
+#logo h1{
+	float: right;
+	margin-top: 31px;
+}
+#tabela{
+  float: right;
+    height: 575px;
+    margin-right: -45px;
+    padding: 43px;
+    width: 893px;
+}
+#tabela td {
+    padding-right: 34px;
+    padding-top: 22px;
+}
+
+#tabela h1{
+	color: black;
+	font-size: 17px;
+}
+
+#tabela h2{
+	font-size: 13px;
+	color: rgba(192,192,192,1);
+}
+.link{
+	color: #959595;
+	font-size: 17px;
+	font-weight: bold;
+	
+}
+#loginTable thead img{
+	float: right;	
+}
+#loginTable td{
+	padding: 4px;
+}
+.belo{
+	color: white;
+	font-size: 17px;
+	font-family: News Cycle;
+}
+#submit{
+	float: right;
+	background: rgba(48, 183, 255, 0.47) none repeat scroll 0 0;
+	border: none;
+	color: white;
+	font-size: 17px;
+}
+#login{
+	float: right;
+	padding: 7px;
+	font-size: 17px;
+	color: white;
+}
+#korpa{
+	width: 130px;
+	float: left;
+	margin-left: 300px;
+	
+}
+#korpa p {
+	color: white;
+	font-size: 13px;
+}
+
+
+
+#meni {
+    float: left;
+    background-color: black;
+    height: 40px;
+    margin-top: -15px;
+    width: 100%;
+}
+#meni ul li {
+    padding-right: 88px;
+    font-size: 21px;
+}
+#meni ul {
+    display: inline-flex;
+    /* position: fixed; */
+    padding-top: 8px;
+    float: right;
+}
+#overlay1{
+ background-color: rgba(0, 0, 0, 0.65);
+    display: none;
+    height: 88%;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 192px;
+    width: 100%;
+}
+#overlay1 form{
+	background: #c0c0c0;
+ 	height: 27%;
+    margin-top: 145px;
+    width: 30%;
+}
+
+#overlay1 img{
+	float: right;
+}
+#posalji{
+	float: right;
+	background: rgba(48, 183, 255, 0.47);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+#podaci{
+	font-size: 30px;
+    margin-left: 405px;
+    margin-top: -236px;
+}
+
+#opis{
+    font-size: 25px;
+    margin-left: 216px;
+    margin-top: 75px;
+    border-bottom: medium;
+}
+#dodajUKorpu{
+	color: orange;
+    text-decoration: underline;
+}
+#slika a{
+	color: orange;
+	text-decoration: underline;
+}
+
+#slika{
+	margin-left: 211px;
+    padding-top: 122px;
+     font-size: 25px;
+}
+
+#srednji  thead td{
+	color: aqua;
+
+}
+#srednji  tr{
+	text-align: center;
+
+}
+
+#srednji table td{
+	padding-left: 10px;
+	padding-bottom: 4px;
+
+}
+#dodaj{
+	background: rgba(48, 183, 255, 0.47);
+    color: white;
+    border: none;
+    font-size: 18px;
+	margin-top: 45px;
+}
+#izmeni{
+    margin-left: 580px;
+    margin-top: 20px;
+    background: rgba(48, 183, 255, 0.47);
+    color: white;
+    border: none;
+    font-size: 18px;
+
+}
+
+#sadrzaj table a{
+	color:red;
+	text-decoration: underline;
+}
+#naruci{
+	background: rgba(48, 183, 255, 0.47);
+	color: white;
+	font-size: 21px;
+	float: right;
+	margin-right: 282px;
+   	margin-top: 12px;
+}
+#nastavi{
+	background: rgba(48, 183, 255, 0.47);
+	color: white;
+	font-size: 19px;
+	margin-left: 282px;
+   	margin-top: 12px;
+}
+#sadrzaj{
+	padding-top: 55px;
+	font-size: 21px;
+}
+#prazna{
+	    margin-left: 440px;
+    	margin-top: 170px;
+    	font-size: 30px;
+}
+#prazna a{
+	text-decoration: underline;
+	color: aqua;
+	margin-left: -40px;
+}
+
+#izmeniKor{
+	margin-left: 580px;
+    margin-top: 20px;
+}
+#mesec{
+	margin-left: 550px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+#por{
+	float: right;
+    height: 575px;
+ 
+    width: 893px;
+}
+#status{
+	float: left;
+    height: 719px;
+    margin-top: -54px;
+    width: 265px;
+    font-size: 18px;
+    background-color: rgba(213, 153, 47, 0.60);
+    position: fixed;
+}
+
+#status p, ul{
+	padding: 7px;
+	color: #80ffff;
+}
+
+#status li{
+	width: 90%;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
